@@ -221,6 +221,10 @@ body {
   background-color: #404bbf;
 }
 
+.hero-section {
+  background-image: url(../images/dark-bg-1.jpg) linear-gradient(rgba(46, 47, 66, 0.7) rgba(46, 47, 66, 0.7));
+}
+
 /* ================ /HERO STYLES ================ */
 
 /* ================ /WHAT STYLES ================ */
@@ -415,6 +419,7 @@ body {
 /* ================ /FOOTER STYLES ================ */
 
 .page-footer {
+  display: flex;
   padding: 100px 0;
   background: #2e2f42;
 }
@@ -445,6 +450,28 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background: #2e2f42;
+}
+
+.social-media {
+  font: 500 16px / 1.5 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.social-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.social-media-container {
+  width: 208px;
+  height: 80px;
+  margin-left: 120px;
+  margin-right: 759px;
+  margin-bottom: 151px;
 }
 
 /* ================ /FOOTER STYLES ================ */
