@@ -197,7 +197,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
+
   max-width: 496px;
 }
 
@@ -222,7 +222,8 @@ body {
 }
 
 .hero-section {
-  background-image: url(../images/dark-bg-1.jpg) linear-gradient(rgba(46, 47, 66, 0.7) rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
+  background-size: cover;
 }
 
 /* ================ /HERO STYLES ================ */
