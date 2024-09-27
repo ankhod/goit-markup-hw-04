@@ -135,7 +135,7 @@ body {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 
 .menu {
   display: flex;
@@ -357,7 +357,7 @@ body {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition зі значенням background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -365,11 +365,11 @@ body {
   background-color: #404bbf;
 }
 
-.instagram-icon, 
-.twitter-icon, 
-.facebook-icon, 
+.instagram-icon,
+.twitter-icon,
+.facebook-icon,
 .linkedin-icon {
-fill: #f4f4fd;
+  fill: #f4f4fd;
 }
 
 /* ================ /TEAM STYLES ================ */
@@ -460,7 +460,7 @@ fill: #f4f4fd;
 .container-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px
+  margin-right: 120px;
   flex-wrap: wrap;
 }
 
@@ -518,9 +518,10 @@ fill: #f4f4fd;
   gap: 16px;
 }
 
-.social-list-item {
+.social-list-item-footer {
   width: 40px;
   height: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-container {
@@ -529,8 +530,6 @@ fill: #f4f4fd;
   width: 208px;
   height: 80px;
   margin-left: 120px;
-  margin-right: ;
-  margin-bottom: ;
 }
 
 .social-list-link-footer {
@@ -546,20 +545,14 @@ fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link {
-  fill: none;
-}
-
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
   background-color: #31d0aa;
-  
-  
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.instagram-icon, 
-.twitter-icon, 
+.instagram-icon,
+.twitter-icon,
 .facebook-icon,
 .linkedin-icon {
   fill: #f4f4fd;
