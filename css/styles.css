@@ -427,9 +427,12 @@ body {
   height: 100%;
   top: 0;
   left: 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
   background-color: #4d5ae5;
   overflow: auto;
-  padding: 32px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -459,17 +462,17 @@ body {
 .container-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+
   flex-wrap: wrap;
 }
 
 .page-footer-block-left {
-  width: 264px;
   margin-right: 120px;
   margin-left: 89px;
 }
 
 /*display: flex;
+width: 264px;
   flex-wrap: wrap;
   height: 112 px;
   */
