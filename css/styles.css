@@ -366,10 +366,7 @@ body {
   background-color: #404bbf;
 }
 
-.instagram-icon,
-.twitter-icon,
-.facebook-icon,
-.linkedin-icon {
+.social-list-icon {
   fill: #f4f4fd;
 }
 
@@ -466,13 +463,15 @@ body {
 }
 
 .page-footer-block-left {
-  display: flex;
-  flex-wrap: wrap;
   width: 264px;
-  height: 112 px;
-  margin-left: 89px;
   margin-right: 120px;
+  margin-left: 89px;
 }
+
+/*display: flex;
+  flex-wrap: wrap;
+  height: 112 px;
+  */
 
 .accent-color-footer {
   font: 700 18px / 1.16667 'Raleway', sans-serif;
