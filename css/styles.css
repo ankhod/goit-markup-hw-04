@@ -404,6 +404,7 @@ body {
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-title {
@@ -548,13 +549,10 @@ body {
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
   background-color: #31d0aa;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.instagram-icon,
-.twitter-icon,
-.facebook-icon,
-.linkedin-icon {
+.social-list-icon {
   fill: #f4f4fd;
 }
 
