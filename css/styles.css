@@ -466,16 +466,7 @@ body {
 
 .page-footer-block-left {
   margin-right: 120px;
-  margin-left: 89px;
 }
-
-/*
-margin-right: 120px;
-  flex-wrap: wrap;display: flex;
-width: 264px;
-  flex-wrap: wrap;
-  height: 112 px;
-  */
 
 .accent-color-footer {
   font: 700 18px / 1.16667 'Raleway', sans-serif;
@@ -557,5 +548,13 @@ width: 264px;
 .social-list-icon {
   fill: #f4f4fd;
 }
+
+/* margin-left: 89px;
+margin-right: 120px;
+  flex-wrap: wrap;display: flex;
+width: 264px;
+  flex-wrap: wrap;
+  height: 112 px;
+  */
 
 /* ================ /FOOTER STYLES ================ */
